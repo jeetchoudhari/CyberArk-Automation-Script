@@ -22,16 +22,16 @@ Sends real-time email notifications for alerts.
 **Script Configuration**<br>
 Open the script file (vault_monitoring.py) and configure the following settings:
 
-API_BASE_URL: Set this to the base URL of your CyberArk API endpoint.<br>
-VAULT_HEALTH_ENDPOINT: Set this to the endpoint for vault health status.<br>
-CREDENTIALS_ENDPOINT: Set this to the endpoint for credential information.<br>
-POLICY_ENDPOINT: Set this to the endpoint for policy information.<br>
-EMAIL_SENDER: Your email address used for sending notifications.<br>
-EMAIL_RECEIVER: The recipient's email address for notifications.<br>
-EMAIL_PASSWORD: Password for the sender email.<br>
-SMTP_SERVER: SMTP server address for sending emails.<br>
-SMTP_PORT: SMTP server port (typically 587 for TLS).<br>
-DATABASE_FILE: Name of the SQLite database file for storing reports.<br>
+**API_BASE_URL:** Set this to the base URL of your CyberArk API endpoint.<br>
+**VAULT_HEALTH_ENDPOINT:** Set this to the endpoint for vault health status.<br>
+**CREDENTIALS_ENDPOINT:** Set this to the endpoint for credential information.<br>
+**POLICY_ENDPOINT:** Set this to the endpoint for policy information.<br>
+**EMAIL_SENDER:** Your email address used for sending notifications.<br>
+**EMAIL_RECEIVER:** The recipient's email address for notifications.<br>
+**EMAIL_PASSWORD:** Password for the sender email.<br>
+**SMTP_SERVER:** SMTP server address for sending emails.<br>
+**SMTP_PORT:** SMTP server port (typically 587 for TLS).<br>
+**DATABASE_FILE:** Name of the SQLite database file for storing reports.<br>
 
 **Running the Script**<br>
 Execute the script in command line using (python vault_monitoring.py)
