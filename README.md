@@ -15,8 +15,7 @@ Sends real-time email notifications for alerts.
 3. An SMTP email server for sending notifications.
 
 **Installation**
-1. Clone the Repository (git clone https://github.com/your-username/cyberark-vault-monitoring.git
-cd cyberark-vault-monitoring)
+1. Clone the Repository
 2. Install Required Libraries (pip install requests)
 
 
