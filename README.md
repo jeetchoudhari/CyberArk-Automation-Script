@@ -1,4 +1,4 @@
-# CyberArk-Automation-Script
+# CyberArk-Monitoring-Automation
 
 This project provides a Python script to monitor CyberArk Vault health, automate alerts for credential expirations and policy violations, and generate usage reports. The script leverages CyberArk’s REST APIs to fetch data and utilizes email notifications for alerting
 
